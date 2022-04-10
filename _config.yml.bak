@@ -1,7 +1,7 @@
 title: "BukuKelas"
 email: "wahyu243@gmail.com"
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://bukukelas.com"
+url: "https://wahyu243.github.io/bukukelas/"
 logo: /assets/images/header-brand.png
 description: "BukuKelas.com berbagi informasi informatif tentang pendidikan, dokumen, rpp, buku, tutorial, berita, dll."
 keywords: "pendidikan, dokumen, rpp, buku, tutorial, berita"
