@@ -1,11 +1,11 @@
 title: "BukuKelas"
-email: "themeix@gmail.com"
+email: "wahyu243@gmail.com"
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://wahyu243.github.io/bukukelas/"
 logo: /assets/images/header-brand.png
 description: "BukuKelas.com berbagi informasi tentang Pendidikan"
 keywords: "jekyll, minimal jekyll, jekyll theme, responsive jekyll, seo friendly blog, super fast blog, responsive"
-mailclimp: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=4784863884"
+mailclimp: "/" # https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=4784863884
 facebook: https://facebook.com/themeix
 instagram: https://instagram.com/themeix
 twitter: https://twitter.com/themeix_com
@@ -68,6 +68,17 @@ collections:
   authors:
     output: true
     permalink: /author/:path/
+  pages:
+    permalink: "/:path"
+    output: true
+    pagination:
+       enabled: true
+  posts:
+    permalink: "/:categories/:title"
+    output: true
+    pagination:
+       enabled: true
+       
 
 feed:
   collections:
