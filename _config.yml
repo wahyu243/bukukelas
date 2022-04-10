@@ -1,7 +1,7 @@
 title: "BukuKelas.com | Informasi - Informatif"
 email: "themeix@gmail.com"
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://wahyu243.github.io/bukukelas/
+url: "https://wahyu243.github.io/bukukelas/"
 logo: /assets/images/header-brand.png
 description: "BukuKelas.com berbagi informasi tentang Pendidikan"
 keywords: "jekyll, minimal jekyll, jekyll theme, responsive jekyll, seo friendly blog, super fast blog, responsive"
