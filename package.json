@@ -61,7 +61,7 @@
     "gulp-zip": "^5.0.2",
     "jshint": "^2.11.1",
     "jshint-stylish": "^2.2.1",
-    "node-sass": "^4.5.3",
+    "sass-loader": "^12.6.0",
     "run-sequence": "^2.2.1"
   },
   "homepage": "https://github.com/themeix/gulp-quickstart-pack#readme",
