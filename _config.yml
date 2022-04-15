@@ -2,24 +2,24 @@
 #
 # Welcome to NewsFeed Jekyll Template
 #
-# Product Link : https://themeix.com/product/NewsFeed-jekyll-template/
+# Product Link : https://bukukelas.com/product/NewsFeed-jekyll-template/
 # Version : v1.0.0
 #
 ####################################################
 
 # Site settings
-title: "Newsfeed - Jekyll Premim Theme"
-email: "themeix@gmail.com"
-baseurl: "/jekyllTest-newsfeed" # the subpath of your site, e.g. /blog
-url: "https://akashmdiu.github.io/jekyllTest-newsfeed" # the base hostname & protocol for your site, e.g. http://example.com
+title: "Buku Kelas - Portal Buku Digital"
+email: "wahyu243@gmail.com"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://bukukelas.com" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/images/header-brand.png
-description: "NewsFeed is a responsive Jekyll template for your business website"
-keywords: "jekyll, minimal jekyll, jekyll theme, responsive jekyll, seo friendly blog, super fast blog, responsive"
-mailclimp: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=4784863884"
-facebook: https://facebook.com/themeix
-instagram: https://instagram.com/themeix
-twitter: https://twitter.com/themeix_com
-pinterest: https://pinterest.com/themeix
+description: "BukuKelas.com adalah portal informasi tentang pendidikan"
+keywords: "buku kelas, buku pendidikan, buku sd, buku smp, buku sma/smk, buku pendidikan khusus, buku abk"
+mailclimp: "https://bukukelas.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=4784863884"
+facebook: https://facebook.com/bukukelas
+instagram: https://instagram.com/bukukelas
+twitter: https://twitter.com/bukukelas_com
+pinterest: https://pinterest.com/bukukelas
 
 # Build settings
 markdown: kramdown
@@ -75,6 +75,16 @@ tag_permalink_style: pretty
 
     
 collections:
+  pages:
+    permalink: "/:path"
+    output: true
+    pagination:
+       enabled: true
+  posts:
+    permalink: "/:categories/:title"
+    output: true
+    pagination:
+       enabled: true
   authors:
     output: true
     permalink: /author/:path/
