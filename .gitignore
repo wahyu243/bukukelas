@@ -12,6 +12,7 @@ _site
 *.sublime-workspace
 *.bak
 !spec/*.bak
+.bak
 codekit-config.json
 dist
 node_modules

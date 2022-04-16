@@ -8,7 +8,7 @@ featured: true
 date: 2022-04-10 17:04:13 +0600
 tags: [definisi, pendidikan, pendidikan khusus, abk, tunagrahita]
 categories: [Teori]
-post_image: "/assets/images/blog/tunagrahita.jpg"
+post_image: "/assets/images/tunagrahita.jpg"
 comments: true
 excerpt: Apa itu Tunagrahita? Seperti apa anak tunagrahita itu? Bagaimana Karakteristik Tunagrahita?
 ---
