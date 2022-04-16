@@ -55,7 +55,6 @@ collections:
         name: "link_img"
         widget: "string"
         required: false
-
   - name: "authors"
     label: "Authors"
     folder: "_authors/"
@@ -67,13 +66,13 @@ collections:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Email", name: "email", widget: "string"}
       - {label: "Facebook", name: "facebook", widget: "string"}
-      - {label: "Twitter, name: "twitter", widget: "string"}      
-      - {label: "Instagram, name: "instagram", widget: "string"}      
-      - {label: "Pinterest, name: "pinterest", widget: "string"}      
-      - {label: "Bio, name: "bio", widget: "string"}      
-      - {label: "Image, name: "image", widget: "image"}   
-      - {label: "Designation, name: "designation", widget: "string"}      
-      - {label: "Location, name: "location", widget: "string"}      
+      - {label: "Twitter", name: "twitter", widget: "string"}      
+      - {label: "Instagram", name: "instagram", widget: "string"}      
+      - {label: "Pinterest", name: "pinterest", widget: "string"}      
+      - {label: "Bio", name: "bio", widget: "string"}      
+      - {label: "Image", name: "image", widget: "image"}   
+      - {label: "Designation", name: "designation", widget: "string"}      
+      - {label: "Location", name: "location", widget: "string"}      
       
   
 
