@@ -23,7 +23,7 @@ Wabah infeksi virus corona baru (SARS-CoV-2/COVID-19, sebelumnya disebut 2019-nC
 * Organisasi Kesehatan Dunia atau WHO menganjurkan untuk tidak hanya mengusap kedua telapak tangan, tetapi juga mengait dan memautkan jari tangan dengan beragam cara demi memastikan seluruh permukaan tangan bersih. Gunakan tisu untuk mengeringkan tangan dan mematikan keran air.Pastikan Anda selalu mencuci tangan sebelum makan atau minum apa pun. Namun, ada baiknya Anda mencuci tangan kapan saja saat berada di luar ruangan atau di sekitar orang-orang yang mungkin sedang sakit.
 * Jika Anda tidak bisa mencuci tangan, gunakan cairan pembersih tangan atau hand sanitizer yang mengandung alkohol 60-95%. Persentase alkohol lebih dari 95% justru kurang efektif.
 
-  ![Jauhkan tangan dari mata hidung dan mulut](/assets/images/v4-728px-prevent-coronavirus-step-2-version-2.jpg "Jauhkan tangan dari mata hidung dan mulut")
+  ![Jauhkan tangan dari mata hidung dan mulut](/assets/images/v4-728px-prevent-coronavirus-step-2-version-2.jpg.jpg "Jauhkan tangan dari mata hidung dan mulut")
 
 ### Hindari Sentuhan
 **2. Hindari sentuhan tangan ke mata, hidung, dan mulut Anda**. Ada kemungkinan Anda bersentuhan dengan virus corona di permukaan seperti gagang pintu atau meja dapur. Jika hal ini terjadi, kuman akan menempel di tangan Anda dan mudah masuk ke dalam tubuh saat Anda menyentuh wajah. Jadi, hindarilah menyentuh mata, hidung, dan mulut untuk berjaga-jaga jika ada virus di kulit Anda. 
