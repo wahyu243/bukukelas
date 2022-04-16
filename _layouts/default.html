@@ -10,15 +10,46 @@ layout: compress
     <!-- meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="msvalidate.01" content="45256F6C01A5B0893737B4B675E797AE" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     {% seo %}
 
     <!--  Add Favicon -->
     <link rel="icon" href="{{'/assets/images/favicon-32x32.png' | relative_url}}" type="image/x-icon" />
+	<link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" /> 
+	<link rel="shortcut icon" href="/assets/images/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/assets/android-chrome-192x192.png ">
+	<link rel="icon" type="image/png" sizes="512x512" href="/assets/android-chrome-512x512.png ">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+	<link rel="manifest" href="/assets/site.webmanifest">
 
     <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="//ajax.googleapis.com"> 
+	<!-- Google API -->
+	<link rel="dns-prefetch" href="//apis.google.com">
+	<link rel="dns-prefetch" href="//d33wubrfki0l68.cloudfront.net"> 
+	<!-- Google Fonts -->
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com" 
+	<!-- Google Analytics -->
+	<link rel="dns-prefetch" href="//www.google-analytics.com"> 
+	<!-- Google Tag Manager -->
+	<link rel="dns-prefetch" href="//www.googletagmanager.com"> 
+	<!-- Google Publisher Tag -->
+	<link rel="dns-prefetch" href="//www.googletagservices.com"> 
+	<!-- Google AdSense -->
+	<link rel="dns-prefetch" href="//adservice.google.com">
+	<link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+	<link rel="dns-prefetch" href="//tpc.googlesyndication.com"> 
+	<!-- DoubleClick -->
+	<link rel="dns-prefetch" href="//ad.doubleclick.net">
+	<link rel="dns-prefetch" href="//googleads.g.doubleclick.net">
+	<link rel="dns-prefetch" href="//stats.g.doubleclick.net">
+	<link rel="dns-prefetch" href="//cm.g.doubleclick.net">
+	<link href="//bukukelas.com" rel="dns-prefetch">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans&display=swap"
         rel="stylesheet">
 
@@ -28,6 +59,7 @@ layout: compress
 
     {% feed_meta %}
 
+{% include gtag-manager.html %}
 </head>
 
 <body>

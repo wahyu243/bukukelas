@@ -17,7 +17,7 @@ pagination:
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Category - {{cat | downcase }}</h2>
+                    <h2>Category - {{cat | capitalize }}</h2>
                     <p>Total Posts : {{posts.size}} {% if posts.size == 1 %} Post {% else %} Posts {% endif %} </p>
                 </div>
             </div>
