@@ -64,6 +64,7 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "author"}
       - {label: "Name", name: "name", widget: "string"}
+      - {label: "Author id", name: "author_id", widget: "string"}
       - {label: "Email", name: "email", widget: "string"}
       - {label: "Facebook", name: "facebook", widget: "string"}
       - {label: "Twitter", name: "twitter", widget: "string"}      

@@ -2,7 +2,7 @@
 layout: default
 post_layout: 1
 ---
-{% assign author = site.authors | where: 'author_name', page.author_name | first %}
+{% assign author = site.authors | where: 'author_id', page.author_id | first %}
 <!--/// Blog Area /// -->
 <div class="blog-area py-5">
     <div class="container">
