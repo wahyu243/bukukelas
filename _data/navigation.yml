@@ -1,23 +1,21 @@
-- text: Home
+- text: Beranda
   url: /
   meganenu: false
- 
-- text: Explore
-  url: /#
-  meganenu: true
+              
+- text: Buku
+  url: /buku
+  meganenu: false
   submenu:
-    - title: Buku 
-      submenuitem:
-      - text: Buku Guru
-        url: /guru
-      - text: Buku Siswa
-        url: /siswa
-      - text: Buku Parenting
-        url: /parenting
-      - text: Buku Komik
-        url: /komik
-      - text: Buku Dongeng
-        url: /dongeng
+    - text: Buku Guru
+      url: /guru
+    - text: Buku Siswa
+      url: /siswa
+    - text: Buku Parenting
+      url: /parenting
+    - text: Buku Komik
+      url: /komik
+    - text: Buku Dongeng
+      url: /dongeng
  #  - title: Satuan Pendidikan 
  #     submenuitem:
  #     - text: SD
@@ -32,8 +30,10 @@
  #       url: /smplb
  #     - text: SMALB
  #       url: /smalb       
-    - title: Kategori
-      submenuitem:
+- text: Kategori
+  url: /buku
+  meganenu: false
+  submenu:
       - text: Administrasi
         url: /administrasi
       - text: Teori
@@ -44,8 +44,6 @@
         url: /tutorial
       - text: Video
         url: /video
-    - title: Lainnya
-      submenuitem:
       - text: Berita
         url: /berita
       - text: CPNS
