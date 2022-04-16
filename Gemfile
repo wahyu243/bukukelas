@@ -24,6 +24,7 @@ group :jekyll_plugins do
   gem 'jekyll-timeago'
   gem 'jekyll-paginate-v2'
   gem "jekyll-last-modified-at"
+  gem 'jekyll-toc', '~> 0.12.2'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
