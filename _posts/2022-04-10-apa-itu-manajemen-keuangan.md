@@ -10,7 +10,7 @@ tags: [definisi, keuangan]
 categories: [Teori]
 post_image: "/assets/images/blog/manajemen.png"
 comments: true
-excerpt: Manajemen Keuangan adalah suatu kegiatan perencanaan, penganggaran, pemeriksaan, pengelolaan, pengendalian, pencarian dan penyimpanan dana yang dimiliki oleh suatu organisasi atau perusahaan.
+excerpt: Manajemen Keuangan adalah suatu kegiatan perencanaan, penganggaran, pemeriksaan, pengelolaan, pengendalian, pencarian dan penyimpanan dana yang dimiliki oleh suatu organisasi atau perusahaan
 ---
 
 ## Apa itu Manajemen Keuangan?

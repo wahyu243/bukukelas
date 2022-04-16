@@ -10,6 +10,8 @@ _site
 .tmp
 *.sublime-project
 *.sublime-workspace
+*.bak
+!spec/*.bak
 codekit-config.json
 dist
 node_modules
