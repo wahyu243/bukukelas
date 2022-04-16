@@ -4,7 +4,7 @@ title: Melindungi Diri dari Virus Corona
 excerpt: Cara atau langkah-langkah mencegah atau melindungi diri dari paparan
   Virus Corona (Covid-19)
 post_image: assets/images/20200325063219.jpg
-date: 2022-04-16 19:09
+date: 2022-04-16 19:45
 author_name": wahyu243
 featured: "true"
 categories:
