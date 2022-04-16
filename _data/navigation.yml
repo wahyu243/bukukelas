@@ -38,7 +38,7 @@
         url: /administrasi
       - text: Teori
         url: /teori     
-      - text: Meteri
+      - text: Materi
         url: /materi
       - text: Tutorial
         url: /tutorial
@@ -73,4 +73,4 @@
 - text: Kontak
   url: /kontak
 - text: Login
-  url: /login
+  url: /admin/
