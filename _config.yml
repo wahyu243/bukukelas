@@ -28,7 +28,11 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-seo-tag
   - jekyll-timeago
+  - jekyll-last-modified-at
 
+# Optional. The default date format, used if none is specified in the tag.
+last-modified-at:
+    date-format: '%d-%b-%y'
 
 # Site configuration for the Jekyll 2 Pagination Gem
 pagination:
