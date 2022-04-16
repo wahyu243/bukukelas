@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Melindungi Diri dari Virus Corona
-excerpt: Cara atau langkah-langkah mencegah atau melindungi diri dari   paparan
-  Virus Corona (Covid-19)
+excerpt: Cara atau langkah-langkah mencegah atau melindungi diri dari paparan Virus Corona (Covid-19)
 date: 2022-04-16 19:09
 author_name": wahyu243
 featured: "false"
@@ -11,7 +10,8 @@ categories:
 tags:
   - tutorial
 ---
-Wabah infeksi virus corona baru (SARS-CoV-2/COVID-19, sebelumnya disebut 2019-nCoV) adalah jenis virus penyebab penyakit seperti flu biasa, MERS, SARS, dan penyakit saluran pernapasan lain yang berpotensi mematikan. Meskipun bisa berakibat serius, langkah-langkah pencegahan bisa membantu melindungi kesehatan Anda dari virus corona, baik di masyarakat, dan di rumah.
+
+Wabah infeksi virus corona baru (SARS-CoV-2/COVID-19, sebelumnya disebut 2019-nCoV) adalah jenis virus penyebab penyakit seperti flu biasa, MERS, SARS, dan penyakit saluran pernapasan lain yang berpotensi mematikan. Meskipun bisa berakibat serius, langkah-langkah pencegahan bisa membantu melindungi kesehatan Anda dari virus corona, baik di masyarakat, dan di rumah. Hingga saat ini banyak muncul varian virus baru.
 
 ![Mencuci tangan dengan sabun](/img/galuh-ilustrasi-mencuci-tangan-berita1.png "Mencuci tangan dengan sabun")
 
@@ -20,7 +20,7 @@ Wabah infeksi virus corona baru (SARS-CoV-2/COVID-19, sebelumnya disebut 2019-nC
 * Organisasi Kesehatan Dunia atau WHO menganjurkan untuk tidak hanya mengusap kedua telapak tangan, tetapi juga mengait dan memautkan jari tangan dengan beragam cara demi memastikan seluruh permukaan tangan bersih. Gunakan tisu untuk mengeringkan tangan dan mematikan keran air.Pastikan Anda selalu mencuci tangan sebelum makan atau minum apa pun. Namun, ada baiknya Anda mencuci tangan kapan saja saat berada di luar ruangan atau di sekitar orang-orang yang mungkin sedang sakit.
 * Jika Anda tidak bisa mencuci tangan, gunakan cairan pembersih tangan atau hand sanitizer yang mengandung alkohol 60-95%. Persentase alkohol lebih dari 95% justru kurang efektif.
 
-  ![Jauhkan tangan dari mata hidung dan mulut](/assets/images/v4-728px-prevent-coronavirus-step-2-version-2.jpg.jpg "Jauhkan tangan dari mata hidung dan mulut")
+  ![Jauhkan tangan dari mata hidung dan mulut](/assets/images/v4-728px-prevent-coronavirus-step-2-version-2.jpg "Jauhkan tangan dari mata hidung dan mulut")
 
 **2. Hindari sentuhan tangan ke mata, hidung, dan mulut Anda**. Ada kemungkinan Anda bersentuhan dengan virus corona di permukaan seperti gagang pintu atau meja dapur. Jika hal ini terjadi, kuman akan menempel di tangan Anda dan mudah masuk ke dalam tubuh saat Anda menyentuh wajah. Jadi, hindarilah menyentuh mata, hidung, dan mulut untuk berjaga-jaga jika ada virus di kulit Anda. 
 

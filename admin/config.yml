@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main
   
-logo_url: https://bukukelas.com/svg/logo.svg
+logo_url: https://bukukelas.com/assets/images/header-brand.png
   
 media_folder: "assets/images/"
 public_folder: "assets/images"
