@@ -31,7 +31,11 @@ collections:
           time_format: 'HH:mm',
           format: 'YYYY-MM-DD HH:mm',
         }
-      - label: "Author name"
+      - label: "Author Id"
+        name: author_id
+        widget: "string"
+        required: false
+      - label: "Author Name"
         name: author_name
         widget: "string"
         required: false

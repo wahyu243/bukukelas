@@ -6,6 +6,7 @@ excerpt: Cara atau langkah-langkah mencegah atau melindungi diri dari paparan
 post_image: assets/images/20200325063219.jpg
 date: 2022-04-16 19:41
 author_name: wahyu243
+author_id: 1
 featured: "true"
 categories:
   - Tutorial
