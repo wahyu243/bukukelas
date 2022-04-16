@@ -32,7 +32,7 @@ collections:
           format: 'YYYY-MM-DD HH:mm',
         }
       - label: "Author name"
-        name: author_name"
+        name: author_name
         widget: "string"
         required: false
       - {label: 'Featured', name: 'featured', widget: 'select', options: ['true', 'false'] }
