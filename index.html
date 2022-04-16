@@ -52,8 +52,8 @@ home: 01
             {% include nf-widget-05.html %}
          </div>
          <div class="col-md-6 col-lg-4  pb-3"> 
-            {% assign cat = "Materi" %}
-            {% assign cat_slug = "berita" %}
+            {% assign cat = "Artikel" %}
+            {% assign cat_slug = "artikel" %}
             {% assign posts = site.posts | where: "categories", cat %}
             {% assign post_limit = 3 %}
             {% include nf-widget-05.html %}

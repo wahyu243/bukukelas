@@ -4,5 +4,6 @@
 
 [build.environment]
   JEKYLL_ENV = "production"
+  TZ = "Asia/Jakarta"
 
 
