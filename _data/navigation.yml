@@ -14,20 +14,24 @@
         url: /siswa
       - text: Buku Parenting
         url: /parenting
-    - title: Satuan Pendidikan 
-      submenuitem:
-      - text: SD
-        url: /sd
-      - text: SMP
-        url: /smp
-      - text: SMA/SMK
-        url: /sma-smk
-      - text: SDLB
-        url: /sdlb
-      - text: SMPLB
-        url: /smplb
-      - text: SMALB
-        url: /smalb
+      - text: Buku Komik
+        url: /komik
+      - text: Buku Dongeng
+        url: /dongeng
+ #  - title: Satuan Pendidikan 
+ #     submenuitem:
+ #     - text: SD
+ #       url: /sd
+ #     - text: SMP
+ #       url: /smp
+ #     - text: SMA/SMK
+ #       url: /sma-smk
+ #     - text: SDLB
+ #       url: /sdlb
+ #     - text: SMPLB
+ #       url: /smplb
+ #     - text: SMALB
+ #       url: /smalb       
     - title: Kategori
       submenuitem:
       - text: Administrasi
