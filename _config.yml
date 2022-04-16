@@ -68,6 +68,22 @@ autopages:
 tag_page_layout: category
 tag_page_dir: tag
 tag_permalink_style: pretty
+
+defaults:
+- scope:
+    path: _pages
+    type: pages
+  values:
+    layout: page
+    author: wahyu243
+    toc: true
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    author: wahyu243
+    toc: true
     
 collections:
   pages:
