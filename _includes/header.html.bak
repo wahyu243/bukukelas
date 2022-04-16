@@ -3,7 +3,7 @@
     <div class="container{% if page.home == 6 %}-fluid{% endif %}">
       <div class="header-newsticker-menu">
         <div class="newsticker">
-          <div class="newsticker-btn">Terbaru</div>
+          <div class="newsticker-btn">Latest News</div>
           <div class="newsticker-list">
             <ul class="list-inline">
               {% assign posts = site.posts | sort: 'date' | reverse %}

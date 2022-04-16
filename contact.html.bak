@@ -33,13 +33,14 @@ permalink: /kontak
                         <div class="card-header  mb-1" id="headingOne">
                             <button class="btn btn-link bg-light" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne" aria-expanded="true">
-                                Siapa Pemilik BukuKelas.com?
+                                Pork kevin burgdoggen swine?
                             </button>
                         </div>
 
                         <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
                             <div class="card-body">
-                                Bukukelas.com dimiliki oleh individu bukan suatu perusahaan.
+                                Short ribs tri-tip shankle, pork biltong bacon porchetta burgdoggen rump pork chop short
+                                loin tenderloin meatball spare ribs shoulder porchetta.
                             </div>
                         </div>
                     </div>
@@ -47,12 +48,13 @@ permalink: /kontak
                         <div class="card-header  mb-1" id="headingTwo">
                             <button class="btn btn-link bg-light collapsed" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo" aria-expanded="false">
-                                Kenapa BukuKelas.com dibuat?
+                                Capicola short ribs sausage turducken?
                             </button>
                         </div>
                         <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
                             <div class="card-body">
-                                BukuKelas.com dibuat sebagai platform digital yang bertujuan untuk memudahkan para pelaku pendidikan dalam mencari apa yang mereka butuhkan termasuk diantaranya Buku Digital, Materi, Teori, dan Informasi Lainnya
+                                Et pri affert debitis alienum, libris impetus ex ludus ex democritum adolescens mea et,
+                                te quot has mundi posidonium has
                             </div>
                         </div>
                     </div>
@@ -60,13 +62,13 @@ permalink: /kontak
                         <div class="card-header mb-1" id="headingThree">
                             <button class="btn btn-link bg-light collapsed" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false">
-                                Siapa saja yang menjadi kontributor?
+                                meatloaf biltong burgdoggen?
                             </button>
                         </div>
                         <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
                             <div class="card-body">
-                                Semua orang yang berminat dapat menjadi kontributor di BukuKelas.com,
-                                oleh karena itu kami berharap anda semua dapat berkontribusi di BukuKelas.com
+                                Et pri affert debitis alienum, libris impetus ex ludus ex democritum adolescens mea et,
+                                te quot has mundi posidonium has
                             </div>
                         </div>
                     </div>
@@ -74,8 +76,8 @@ permalink: /kontak
             </div>
             <div class="col-xl-5 col-lg-5">
                 <div class="contact-form">
-                    <h2 class="text-secondary mb-2">Kirim Pesan</h2>
-                    <p>Silahkan kirim pesan dan kesan anda di bawah ini
+                    <h2 class="text-secondary mb-2">Send Us Message</h2>
+                    <p>Please fill up the form bellow with your valuable opinion, feedback or any suggession to us
                     </p>
                     <form data-aos="fade-in" class="form pt-2" action="https://formspree.io/f/xdoyzzoz" method="post">
                         <div class="row">
@@ -104,7 +106,7 @@ permalink: /kontak
                             <div class="col-12">
                                 <div class="subs-btn">
                                     <button class="btn btn-danger bg-hover-danger text-white" type="submit">
-                                        Kirim
+                                        Send Message
                                     </button>
                                 </div>
                             </div>

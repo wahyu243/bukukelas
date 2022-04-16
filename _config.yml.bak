@@ -75,6 +75,16 @@ tag_permalink_style: pretty
 
     
 collections:
+  pages:
+    permalink: "/:path"
+    output: true
+    pagination:
+       enabled: true
+  posts:
+    permalink: "/:categories/:title"
+    output: true
+    pagination:
+       enabled: true
   authors:
     output: true
     permalink: /author/:path/

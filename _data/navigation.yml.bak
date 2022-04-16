@@ -67,7 +67,7 @@
       url: /kode-etik
     - text: Kebijakan Privasi & Cookie
       url: /kebijakan-privasi-cookie      
-- text: kontak
-  url: /kontak
+- text: Contact
+  url: /contact
 - text: Login
   url: /login

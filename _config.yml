@@ -18,7 +18,7 @@ keywords: "buku kelas, buku pendidikan, buku sd, buku smp, buku sma/smk, buku pe
 mailclimp: "https://bukukelas.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=4784863884"
 facebook: https://facebook.com/bukukelas
 instagram: https://instagram.com/bukukelas
-twitter: https://twitter.com/bukukelas_com
+twitter: https://twitter.com/bukukelas
 pinterest: https://pinterest.com/bukukelas
 
 # Build settings
@@ -72,7 +72,6 @@ autopages:
 tag_page_layout: category
 tag_page_dir: tag
 tag_permalink_style: pretty
-
     
 collections:
   pages:
@@ -93,3 +92,14 @@ feed:
   collections:
     posts:
       path: "/index.xml"
+
+toc:
+  min_level: 1
+  max_level: 10
+  ordered_list: false
+  no_toc_section_class: 'toc-l'
+  list_class: t-o-c
+  sublist_class: 'toc-p'
+  item_class: 'toc-p'
+  item_prefix: 'toc-p'
+  
