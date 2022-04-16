@@ -116,3 +116,11 @@ toc:
   item_class: 'toc-p'
   item_prefix: 'toc-p'
   
+  compress_html:
+  clippings: all
+  comments: [""]
+  endings: [all]
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
