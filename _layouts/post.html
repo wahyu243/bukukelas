@@ -26,13 +26,20 @@ post_layout: 1
                             </div>
                         </div>
                     </div>
+					<div class="mb-0 m-0 small">
+Last updated on 
+				<span itemprop='datePublished'>
 
+<abbr class='updated published' expr:title='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date_to_string }}</abbr>
 
+</span>
+				Posted on <span itemprop='dateModified'>
 
-                    <div class="mb-0">
-                        <p class="m-0 small">Last updated on {{ page.last_modified_at | date_to_long_string }}</p>
-                        <p class="m-0 small"> Posted on {{page.date | date_to_long_string}}</p>
-                    </div>
+<abbr class='updated published' expr:title='{{ page.date | date_to_xmlschema }}' itemprop='dateModified'>{{ page.last_modified_at | date_to_string }}</abbr>
+
+</span></div>
+
+                    
 
                 </div>
                 <div class="featured-image pb-3">
