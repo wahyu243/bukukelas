@@ -80,6 +80,7 @@ collections:
     output: true
     pagination:
        enabled: true
+    toc: true
   authors:
     output: true
     permalink: /author/:path/
