@@ -27,6 +27,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-seo-tag
+  - jekyll-toc
   - jekyll-timeago
   - jekyll-last-modified-at
 

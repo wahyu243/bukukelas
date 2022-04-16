@@ -30,8 +30,8 @@ post_layout: 1
 
 
                     <div class="mb-0">
-                        <p class="m-0 small">Last updated on {{ page.last_modified_at }}</p>
-                        <p class="m-0 small"> Posted on {{page.date}}</p>
+                        <p class="m-0 small">Last updated on {{ page.last_modified_at | date_to_long_string }}</p>
+                        <p class="m-0 small"> Posted on {{page.date | date_to_long_string}}</p>
                     </div>
 
                 </div>
