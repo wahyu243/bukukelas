@@ -12,8 +12,7 @@
         url: /guru
       - text: Buku Siswa
         url: /siswa
-      - text: Buku 
-        url: /Buku Parenting
+      - text: Buku Parenting
         url: /parenting
     - title: Satuan Pendidikan 
       submenuitem:
@@ -39,12 +38,8 @@
         url: /materi
       - text: Tutorial
         url: /tutorial
-      - text: Dongeng
-        url: /dongeng
       - text: Video
         url: /video
-      - text: Infografis
-        url: /infografis
     - title: Lainnya
       submenuitem:
       - text: Berita
@@ -53,6 +48,10 @@
         url: /cpns
       - text: PPPK
         url: /pppk
+      - text: Dongeng
+        url: /dongeng
+      - text: Infografis
+        url: /infografis
 - text: Panduan
   url: /#
   meganenu: false
@@ -67,7 +66,7 @@
       url: /kode-etik
     - text: Kebijakan Privasi & Cookie
       url: /kebijakan-privasi-cookie      
-- text: kontak
+- text: Kontak
   url: /kontak
 - text: Login
   url: /login

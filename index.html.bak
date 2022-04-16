@@ -20,8 +20,8 @@ home: 01
    <div class="container">
       <div class="row">
          <div class="col-lg-8 col-md-7">
-            {% assign cat = "Buku" %}
-            {% assign cat_slug = "buku" %}
+            {% assign cat = "Political" %}
+            {% assign cat_slug = "political" %}
             {% assign posts = site.posts | where: "categories", cat %}
             {% assign post_limit = 7 %}
             {% include nf-widget-01.html %}
@@ -45,30 +45,30 @@ home: 01
    <div class="container">
       <div class="row">
          <div class="col-md-6 col-lg-4 pb-3">
-            {% assign cat = "Berita" %}
-            {% assign cat_slug = "berita" %}
+            {% assign cat = "Nature" %}
+            {% assign cat_slug = "nature" %}
             {% assign posts = site.posts | where: "categories", cat %}
             {% assign post_limit = 3 %}
             {% include nf-widget-05.html %}
          </div>
          <div class="col-md-6 col-lg-4  pb-3"> 
-            {% assign cat = "Materi" %}
-            {% assign cat_slug = "berita" %}
+            {% assign cat = "Receipe" %}
+            {% assign cat_slug = "receipe" %}
             {% assign posts = site.posts | where: "categories", cat %}
             {% assign post_limit = 3 %}
             {% include nf-widget-05.html %}
          </div>
          <div class="col-md-6 col-lg-4  pb-3">
-            {% assign cat = "Teori" %}
-            {% assign cat_slug = "teori" %}
+            {% assign cat = "National" %}
+            {% assign cat_slug = "national" %}
             {% assign posts = site.posts | where: "categories", cat %}
             {% assign post_limit = 3 %}
             {% include nf-widget-05.html %}
          </div>
       </div>
 
-      {% assign cat = "Tutorial" %}
-      {% assign cat_slug = "tutorial" %}
+      {% assign cat = "Fashion" %}
+      {% assign cat_slug = "fashion" %}
       {% assign posts = site.posts | where: "categories", cat %}
       {% assign limit = 4 %}
       {% include nf-widget-02.html %}
