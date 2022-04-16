@@ -31,11 +31,20 @@
  #     - text: SMALB
  #       url: /smalb       
 - text: Kategori
-  url: /buku
+  url: /category
   meganenu: false
   submenu:
       - text: Administrasi
         url: /administrasi
+      - text: Berita
+        url: /berita
+        sub_submenu: 
+        - text: CPNS
+          url: /cpns
+        - text: PPPK
+          url: /pppk
+        - text: lainnya
+          url: /berita
       - text: Teori
         url: /teori     
       - text: Materi
@@ -44,14 +53,6 @@
         url: /tutorial
       - text: Video
         url: /video
-      - text: Berita
-        url: /berita
-      - text: CPNS
-        url: /cpns
-      - text: PPPK
-        url: /pppk
-      - text: Dongeng
-        url: /dongeng
       - text: Infografis
         url: /infografis
 - text: Panduan
