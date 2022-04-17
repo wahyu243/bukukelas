@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Categories
-permalink: /categories
+title: Kategori
+permalink: /kategori
 ---
 <!--/// Blog Area /// -->
 <div class="blog-area pb-5">
@@ -30,7 +30,7 @@ permalink: /categories
                                 </div>
                             </div>
                             <div class="card-body">
-                                <h4><a href="{{'/category/' | relative_url}}{{category.slug}}">{{category.name}}</a></h4>
+                                <h4><a href="{{'/category/' | relative_url}}{{category.slug}}">{{category.name | capitalize}}</a></h4>
                                 <span class="small badge bg-danger">{{posts.size}} {% if posts.size == 1 %}Post {% else %}Posts{% endif %}</span>
                                 {% if category.description %}
                                 <p class="mb-0">{{category.description}}</p>
