@@ -21,6 +21,7 @@ plugins:
   - jekyll-toc
   - jekyll-timeago
   - jekyll-last-modified-at
+  - jekyll-sitemap
 
 # Optional. The default date format, used if none is specified in the tag.
 last-modified-at:
