@@ -20,8 +20,8 @@ home: 01
    <div class="container">
       <div class="row">
          <div class="col-lg-8 col-md-7">
-            {% assign cat = "Buku" %}
-            {% assign cat_slug = "buku" %}
+            {% assign cat = "Artikel" %}
+            {% assign cat_slug = "artikel" %}
             {% assign posts = site.posts | where: "categories", cat %}
             {% assign post_limit = 7 %}
             {% include nf-widget-01.html %}
@@ -52,8 +52,8 @@ home: 01
             {% include nf-widget-05.html %}
          </div>
          <div class="col-md-6 col-lg-4  pb-3"> 
-            {% assign cat = "Artikel" %}
-            {% assign cat_slug = "artikel" %}
+            {% assign cat = "Buku" %}
+            {% assign cat_slug = "buku" %}
             {% assign posts = site.posts | where: "categories", cat %}
             {% assign post_limit = 3 %}
             {% include nf-widget-05.html %}
