@@ -31,7 +31,7 @@
  #     - text: SMALB
  #       url: /smalb       
 - text: Kategori
-  url: /category
+  url: /categories
   meganenu: false
   submenu:
       - text: Administrasi
