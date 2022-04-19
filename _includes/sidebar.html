@@ -12,10 +12,10 @@
     <div class="wrapper">
        <ul class="nav nav-tabs" id="tab-menu">
           <li class="nav-item">
-             <a class="   active" data-bs-toggle="tab" href="#tab1">Most Viewed</a>
+             <a class="   active" data-bs-toggle="tab" href="#tab1">Most Recent</a>
           </li>
           <li class="nav-item">
-             <a class=" " data-bs-toggle="tab" href="#tab2">Most Recent </a>
+             <a class=" " data-bs-toggle="tab" href="#tab2">Featured </a>
           </li>
        </ul>
        <div class="tab-content" id="tab-content">
@@ -30,11 +30,15 @@
           </div>
           <div class="tab-pane fade" id="tab2">
              <ul class="counter-post list-inline">
-                {% for post in site.posts limit:5 %}
+			 {% assign featured_posts = site.posts | where: "featured", true %}
+                {% for post in featured_posts limit:5 %}
+				{% if forloop.index > 3 %}
                    <li class="counter-post-item">
                       <a href="{{post.url | relative_url}}">{{post.title}}</a>
                    </li>
                 {% endfor %}
+				{% endif %}
+                       
              </ul>
           </div>
        </div>
