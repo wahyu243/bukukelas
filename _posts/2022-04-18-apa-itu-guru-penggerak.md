@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Apa itu Guru Penggerak
-excerpt: Guru Penggerak adalah suatu 
-  Virus Corona (Covid-19)
+title: Apa itu Guru Penggerak?
+excerpt: Guru Penggerak adalah program pendidikan kepemimpinan bagi guru untuk menjadi pemimpin pembelajaran 
 post_image: assets/images/menjadi-guru-penggerak.png
-date: 2022-04-18 19:41
+date: 2022-04-19 19:41
 author_name: wahyu243
 author_id: 1
 featured: "true"
