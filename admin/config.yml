@@ -89,26 +89,7 @@ collections:
         name: author_name
         widget: "string"
         required: false
-      - {label: 'Featured', name: 'featured', widget: 'select', options: ['true', 'false'] }
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Categories", name: "categories", hint: "Contoh cpns, guru, pendidikan", widget: "list"}
-      - {label: "Tags", name: "tags", hint: "Contoh cpns, guru, pendidikan", widget: "list"}
-      - label: "Nama Sumber"
-        name: "nama_sumber_1"
-        widget: "string"
-        required: false
-      - label: "Link Sumber"
-        name: "link_sumber_1"
-        widget: "string"
-        required: false
-      - label: "Sumber Gambar"
-        name: "name_img_source"
-        widget: "string"
-        required: false
-      - label: "Link Gambar"
-        name: "link_img"
-        widget: "string"
-        required: false
   - name: "authors"
     label: "Authors"
     folder: "_authors/"
