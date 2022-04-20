@@ -1,10 +1,11 @@
 # Site settings
-title: "Buku Kelas - Portal Informasi Digital"
+name: BukuKelas.Com
+title: Portal Informasi Pendidikan
 email: "wahyu243@gmail.com"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bukukelas.com" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/images/header-brand.png
-description: "BukuKelas.com adalah portal informasi tentang pendidikan"
+description: "BukuKelas.com menyajikan berbagai informasi informatif tentang pendidikan, dokumen, rpp, buku, tutorial, berita, dll."
 keywords: "buku kelas, buku pendidikan, buku sd, buku smp, buku sma/smk, buku pendidikan khusus, buku abk"
 mailclimp: "https://bukukelas.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=4784863884"
 facebook: https://facebook.com/bukukelas
