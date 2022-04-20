@@ -125,7 +125,7 @@ layout: compress
       },
  "editor": "yOu", 
  "wordcount" : "{{ page.content | size }}",
- "genre": "{{page.categories}}", 
+ "genre": "{% capture site_tags %} {% for tag in page.categories %}{{ tag | first }} {% unless forloop.last %},{% endunless %}     {% endfor %} {% endcapture %} ", 
  "publisher": {
     "@type": "Organization",
     "name": "{{ site.name }}",
@@ -159,7 +159,7 @@ layout: compress
             "copyrightHolder": {
                 "@id": "https://bukukelas.com/doc/kebijakan-privasi-cookie"
             },
-            "copyrightYear": "2021",
+            "copyrightYear": "2022",
             "creator": {
                 "@id": "https://bukukelas.com/kontributor/wahyu243"
             },
@@ -174,7 +174,7 @@ layout: compress
             "mainEntityOfPage": "{{site.url}}",
             "name": "{{site.name}}",
             "publisher": {
-                "@id": "https://www.facebook.com/bukukelas.com"
+                "@id": "{{site.facebook}}"
             },
             "url": "{{site.url}}"
         }, {
@@ -220,7 +220,7 @@ layout: compress
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "url": "https://bukukelas.com",
+      "url": "{{ site.url }}",
       "logo": "{{ site.url }}/apple-touch-icon.png"
     }
     </script>
