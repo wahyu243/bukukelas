@@ -1,6 +1,6 @@
 ---
 title: Kode Etik
-description: Kode Etik Berisi perilaku yang dapat diterima dan tidak diterima oleh semua kontribor serta menerapkan prinsip-prinsip ini secara adil dan konsisten ke setiap aspek pengelolaan website ini.
+excerpt: Kode Etik Berisi perilaku yang dapat diterima dan tidak diterima oleh semua kontribor serta menerapkan prinsip-prinsip ini secara adil dan konsisten ke setiap aspek pengelolaan website ini.
 permalink: /kode-etik
 author_name: wahyu243
 author_id: 1

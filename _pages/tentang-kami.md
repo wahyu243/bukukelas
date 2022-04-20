@@ -1,8 +1,10 @@
 ---
 title: Tentang BukuKelas.Com
-description: BukuKelas.Com adalah suatu website yang dibuat untuk memberikan
+excerpt: BukuKelas.Com adalah suatu website yang dibuat untuk memberikan
   kumpulan informasi yang bermanfaat bagi semua orang, yang ditulis oleh publik.
 date: 2021-01-09T02:18:42.463Z
+author_name: wahyu243
+author_id: 1
 ---
 
 ## Mengapa BukuKelas.Com Ada?

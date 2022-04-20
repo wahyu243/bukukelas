@@ -1,7 +1,9 @@
 ---
 title: Menjadi Kontributor
-description: Hai semua, Tertarik untuk berkontribusi pada BukuKelas.Com? Kami membutuhkan bantuan anda. bukukelas.com adalah proyek open source, membangun satu kontribusi sekaligus oleh pengguna seperti Anda.
+excerpt: Hai semua, Tertarik untuk berkontribusi pada BukuKelas.Com? Kami membutuhkan bantuan anda. bukukelas.com adalah proyek open source, membangun satu kontribusi sekaligus oleh pengguna seperti Anda.
 permalink: /menjadi-kontributor
+author_name: wahyu243
+author_id: 1
 date: 2022-04-19T02:18:42.463Z
 ---
 
