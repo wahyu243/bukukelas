@@ -91,7 +91,9 @@ collections:
     permalink: "/:path"
     output: true
     pagination:
-       enabled: true
+       enabled: true    
+    toc: true
+    
   posts:
     permalink: "/:categories/:title"
     output: true

@@ -59,6 +59,56 @@ collections:
         name: "link_img"
         widget: "string"
         required: false
+  - name: "pages"
+    label: "Pages"
+    folder: "_pages/"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    identifier_field: name
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Excerpt", name: "excerpt", hint: "Ringkasan Max 180 huruf", widget: "string"}
+      - label: "Image"
+        name: "post_image"
+        widget: "image"
+        required: false
+      - {
+          label: 'Date',
+          name: 'date',
+          widget: 'datetime',
+          date_format: 'YYYY-MM-DD',
+          time_format: 'HH:mm',
+          format: 'YYYY-MM-DD HH:mm',
+        }
+      - label: "Author Id"
+        name: author_id
+        widget: "string"
+        required: false
+      - label: "Author Name"
+        name: author_name
+        widget: "string"
+        required: false
+      - {label: 'Featured', name: 'featured', widget: 'select', options: ['true', 'false'] }
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Categories", name: "categories", hint: "Contoh cpns, guru, pendidikan", widget: "list"}
+      - {label: "Tags", name: "tags", hint: "Contoh cpns, guru, pendidikan", widget: "list"}
+      - label: "Nama Sumber"
+        name: "nama_sumber_1"
+        widget: "string"
+        required: false
+      - label: "Link Sumber"
+        name: "link_sumber_1"
+        widget: "string"
+        required: false
+      - label: "Sumber Gambar"
+        name: "name_img_source"
+        widget: "string"
+        required: false
+      - label: "Link Gambar"
+        name: "link_img"
+        widget: "string"
+        required: false
   - name: "authors"
     label: "Authors"
     folder: "_authors/"
