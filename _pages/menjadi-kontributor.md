@@ -7,7 +7,7 @@ author_id: 1
 date: 2022-04-19T02:18:42.463Z
 ---
 
-Menjadi Kontributor!
+## Tertarik Menjadi Kontributor?
 
 Hai semua, Tertarik untuk berkontribusi pada bukukelas.com? Kami membutuhkan bantuan anda. bukukelas.com adalah proyek open source, membangun satu kontribusi sekaligus oleh pengguna seperti Anda.
 
@@ -19,7 +19,7 @@ Entah Anda seorang mahasiswa, perancang, atau siapa saja, anda bisa berkontribus
 5. Temukan masalah terbuka (terutama yang diberi labelhelp-wanted ), dan kirimkan perbaikan yang diajukan. 
 6. Bantu evaluasi dan meninjau apa yang diusulkan.
 
-Syarat menjadi kontributor
+## Syarat menjadi kontributor
 1. Registrasi <a href="https://bukukelas.com/admin" title="Daftar">Daftar</a>
 2. Verifikasi email
 3. Buat Artikel baru dengan tema yang sudah tersedia

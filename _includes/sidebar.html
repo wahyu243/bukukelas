@@ -12,10 +12,10 @@
     <div class="wrapper">
        <ul class="nav nav-tabs" id="tab-menu">
           <li class="nav-item">
-             <a class="   active" data-bs-toggle="tab" href="#tab1">Most Recent</a>
+             <a class="   active" data-bs-toggle="tab" href="#tab1">Terbaru</a>
           </li>
           <li class="nav-item">
-             <a class=" " data-bs-toggle="tab" href="#tab2">Featured </a>
+             <a class=" " data-bs-toggle="tab" href="#tab2">Featured</a>
           </li>
        </ul>
        <div class="tab-content" id="tab-content">
@@ -71,6 +71,32 @@
        </ul>
     </div>
  </div>
+ 
+<div class="sidebar-widget mb-3 border border-light rounded">
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title-block d-flex pb-3">
+                    <h3 class="section-widget-title">Kategori</h3>
+
+                </div>
+            </div>
+        </div>
+        <ul class="list-group">
+            {% for category in site.data.categories %}
+                {% assign cat = category.name %}
+                {% assign posts = site.posts | where: "categories", cat %}
+                {% if posts.size > 0 %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <a href="{{'/category/' | relative_url}}{{category.slug}}">{{category.name}}</a>
+                        <span class="badge bg-primary rounded-pill">{{posts.size}}</span>
+                    </li>
+                {% endif %}
+            {% endfor %}
+            
+        </ul>
+    </div>
+</div>
  <!-- <div class="sidebar-widget mb-3 border border-light rounded">
     <div class="wrapper">
        <h3>Poll / Vote</h3>
@@ -95,8 +121,8 @@
  </div> -->
  <div class="sidebar-widget border border-light rounded">
     <div class="wrapper">
-       <h3>Subscribe Now</h3>
-       <p>Keep updated with the latest news!</p>
+       <h3>Berlangganan Sekarang</h3>
+       <p>Tetaplah update dengan BukuKelas.Com!</p>
        <form action="#" class="subscription-from">
           <div class="input-group">
              <input type="text" class="form-control" placeholder="Email Address">
