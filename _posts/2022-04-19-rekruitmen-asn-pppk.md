@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Rekrutmen ASN PPPK Tahun 2022
-excerpt: Guru Penggerak adalah suatu 
-  Virus Corona (Covid-19)
+excerpt: Rekrutmen ASN PPPK Tahun 2022 membuka formasi sebesar 970.410.
 post_image: assets/images/rekrutmen-pppk.png
 date: 2022-04-19 19:41
 author_name: wahyu243

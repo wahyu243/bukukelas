@@ -3,61 +3,227 @@ layout: compress
 ---
 
 
-<!DOCTYPE HTML>
-<html lang="{{ page.lang | default: site.lang | default: 'id' }}">
-
+<!DOCTYPE html>
+<html lang="id">
 <head>
-    <!-- meta -->
-    <meta charset="utf-8">
+	
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="google-site-verification" content="{{ site.google_verification }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="{{ site.google_verification }}"><meta property="fb:pages" content="178980899120134" />
+
     <meta name="msvalidate.01" content="{{ site.bing_verification }}" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+	<title>{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }} - {{ site.name }}{% endif %}</title>
+	<meta name="title" content="{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }}{% endif %}">
+ {% if page.layout == 'post' or page.layout == 'page' %}<meta name="description" content="{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }} - {{ site.name }}{% endif %}, {% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ page.excerpt }}{% endif %}">
+	{% endif %}
+ 
+<!-- Google CDN -->
+   <link rel="dns-prefetch" href="//ajax.googleapis.com">
+   <!-- Google API -->
+   
+   <link rel="dns-prefetch" href="//apis.google.com">
+   <link rel="dns-prefetch" href="//d33wubrfki0l68.cloudfront.net">
+   
 
-    {% seo %}
+   <!-- Google Fonts -->
+   <link rel="dns-prefetch" href="//fonts.googleapis.com">
+   <link rel="dns-prefetch" href="//fonts.gstatic.com">
 
-    <!--  Add Favicon -->
-	<link rel="icon" type="image/x-icon" href="/favicon.ico" /> 
-	<link rel="shortcut icon" href="/favicon.ico">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png ">
-	<link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png ">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
+   <!-- Google Analytics -->
+   <link rel="dns-prefetch" href="//www.google-analytics.com">
 
-    <!-- Google fonts -->
-    <link rel="dns-prefetch" href="//ajax.googleapis.com"> 
-	<!-- Google API -->
-	<link rel="dns-prefetch" href="//apis.google.com">
-	<link rel="dns-prefetch" href="//d33wubrfki0l68.cloudfront.net"> 
-	<!-- Google Fonts -->
-	<link rel="dns-prefetch" href="//fonts.googleapis.com">
-	<link rel="dns-prefetch" href="//fonts.gstatic.com" 
-	<!-- Google Analytics -->
-	<link rel="dns-prefetch" href="//www.google-analytics.com"> 
-	<!-- Google Tag Manager -->
-	<link rel="dns-prefetch" href="//www.googletagmanager.com"> 
-	<!-- Google Publisher Tag -->
-	<link rel="dns-prefetch" href="//www.googletagservices.com"> 
-	<!-- Google AdSense -->
-	<link rel="dns-prefetch" href="//adservice.google.com">
-	<link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
-	<link rel="dns-prefetch" href="//tpc.googlesyndication.com"> 
-	<!-- DoubleClick -->
-	<link rel="dns-prefetch" href="//ad.doubleclick.net">
-	<link rel="dns-prefetch" href="//googleads.g.doubleclick.net">
-	<link rel="dns-prefetch" href="//stats.g.doubleclick.net">
-	<link rel="dns-prefetch" href="//cm.g.doubleclick.net">
-	<link href="//bukukelas.com" rel="dns-prefetch">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans&display=swap"
-        rel="stylesheet">
+   <!-- Google Tag Manager -->
+   <link rel="dns-prefetch" href="//www.googletagmanager.com">
 
-    <!-- gulp:css -->
+   <!-- Google Publisher Tag -->
+   <link rel="dns-prefetch" href="//www.googletagservices.com">
+
+   <!-- Google AdSense -->
+   <link rel="dns-prefetch" href="//adservice.google.com">
+   <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+   <link rel="dns-prefetch" href="//tpc.googlesyndication.com">
+   <!-- DoubleClick -->
+   <link rel="dns-prefetch" href="//ad.doubleclick.net">
+   <link rel="dns-prefetch" href="//googleads.g.doubleclick.net">
+   <link rel="dns-prefetch" href="//stats.g.doubleclick.net">
+   <link rel="dns-prefetch" href="//cm.g.doubleclick.net">
+
+   {% if page.layout == 'post' %}
+    <link rel="dns-prefetch" href="//administrasi-net.disqus.com/">
+    <link rel="dns-prefetch" href="//disqus.com">
+    <link rel="dns-prefetch" href="//referrer.disqus.com">
+    <link rel="dns-prefetch" href="//c.disquscdn.com">
+    <link rel="dns-prefetch" href="//realtime.services.disqus.com">
+    {% endif %}
+   <link href="//bukukelas.com" rel="dns-prefetch">
+ 
+    <meta property="fb:app_id" content="2023057631120381">
+    <meta property="og:locale" content="id">
+    <meta property="og:title" content="{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.name }}{% endif %}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:site_name" content="{{ site.name }}">
+    {% if page.layout == 'post' or page.layout == 'page' %}
+    <meta property="og:description" content="{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }} - {{ site.name }}{% endif %}, {% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ page.excerpt }}{% endif %}">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="{{site.url}}/img/{{ page.post_image | replace: '/img/','' }}" >
+    <meta property="og:image:alt" content="{{page.title}}" >
+    <meta property="article:publisher" content="http://www.facebook.com/bukukelas.com" >
+    <meta property="article:author" content="https://www.facebook.com/you.w4hyou" >
+    <meta property="article:published_time" content="{{ page.date }}" >
+    {% else %}
+    <meta name="description" content="{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }} - {{ site.name }}{% endif %}, {% if page.description %}{{ page.description | truncate: 160}}{% else %}{{ site.description | truncate: 160}}{% endif %}">
+    <meta name="og:description" content="{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }} - {{ site.name }}{% endif %}, {% if page.description %}{{ page.description | truncate: 160}}{% else %}{{ site.description | truncate: 160}}{% endif %}">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{site.url}}/img/twitter-card.png">
+    <meta property="og:image:alt" content="{{site.name}}">
+    {% endif %}
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.name }}{% endif %}">
+    <meta name="twitter:description" content="{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }} - {{ site.name }}{% endif %}, {% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+	<meta property="twitter:image" content="{% if page.post_image %}{{site.url}}/img/{{ page.post_image | replace: '/img/','' }}{% else %}{{ site.image }}{% endif %}" >
+
+    <meta name="twitter:site" content="@admnet2">
+    <meta name="twitter:creator" content="@you_wahyou">
+    <meta name="twitter:card" content="summary">
+    <meta content="3kj3zUqTMQb4K-G7zoCj1aLHtho" name="alexaVerifyID">
+    
+    <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="{{'/assets/css/app.min.css' | relative_url}}">
-    <!-- endgulp -->
 
-    {% feed_meta %}
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png	">
+    <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png	">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+ {% if page.layout == 'post' %}
+    <script type="application/ld+json">
+   { 
+   "@context": "https://schema.org", 
+ "@type": "NewsArticle",
+ "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ site.url }}/{{page.category}}"
+      },
+ "headline": "{{ page.title }}",
+ "alternativeHeadline": "{{ page.title }} - {{ site.name }} ",
+ "image": "{%if page.post_image %}{{ site.url }}/{{ page.post_image }}{% else %}{{ site.url }}{{ site.logo }}{% endif %}",
+  "author": {
+        "@type": "Person",
+        "name": "{{page.author_name}}"
+      },
+ "editor": "yOu", 
+ "wordcount" : "{{ page.content | size }}",
+ "genre": "{{page.categories}}", 
+ "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.name }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/apple-touch-icon.png"
+    },
+    "sameAs": [
+    "{{site.facebook}}",
+   "{{site.twitter}}",
+   "{{site.instagram}}"
+        ]
+  },
+ "url": "{{ site.url }}{{ page.url }}",
+ "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ page.last_modified_date | date_to_xmlschema }}{% endif %}",
+ "dateCreated": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ page.last_modified_date | date_to_xmlschema }}{% endif %}",
+ "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ page.last_modified_at | date_to_xmlschema }}{% endif %}",
+ "description": "{% if page.excerpt %}{{ page.excerpt | truncate: 160}}{% else %}{{ page.excerpt }}{% endif %}",
+ "articleBody": "{{page.content | strip_html }}. {%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }} - {{ site.name }}{% endif %}"
+ }
+	</script>
+	{% else %}
+	<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@graph": [{
+            "@type": "WebPage",
+            "author": {
+                "@id": "https://bukukelas.com/kontributor/wahyu243"
+            },
+            "copyrightHolder": {
+                "@id": "https://bukukelas.com/doc/kebijakan-privasi-cookie"
+            },
+            "copyrightYear": "2021",
+            "creator": {
+                "@id": "https://bukukelas.com/kontributor/wahyu243"
+            },
+          
+            "description": "{{site.description}}",
+            "headline": "{{site.title}}",
+            "image": {
+                "@type": "ImageObject",
+                "url": "{{ site.url }}/apple-touch-icon.png"
+            },
+            "inLanguage": "id-ID",
+            "mainEntityOfPage": "{{site.url}}",
+            "name": "{{site.name}}",
+            "publisher": {
+                "@id": "https://www.facebook.com/bukukelas.com"
+            },
+            "url": "{{site.url}}"
+        }, {
+            "@id": "{{site.url}}",
+            "@type": "Organization",
+              "address": {
+  "@type": "PostalAddress",
+  "streetAddress": "Jl. Sindangsari Raya",
+  "addressLocality": "Ciamis",
+  "addressRegion": "JB",
+  "postalCode": "46261",
+  "addressCountry": "ID"
+}
+        },{
+            "@type": "BreadcrumbList",
+            "description": "Breadcrumbs list",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "item": "{{site.url}}",
+                "name": "Homepage",
+                "position": 1
+            }],
+            "name": "Breadcrumbs"
+        }]
+    }
+</script>
+
+  {% endif %}
+   
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "{{ site.url }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ site.url }}/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "https://bukukelas.com",
+      "logo": "{{ site.url }}/apple-touch-icon.png"
+    }
+    </script>
 
 {% include gtag-manager.html %}
 </head>

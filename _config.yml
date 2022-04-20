@@ -76,14 +76,16 @@ defaults:
     type: pages
   values:
     layout: page
-    author: wahyu243
+    author_name: wahyu243
+    author_id: 1
     toc: true
 - scope:
     path: _posts
     type: posts
   values:
     layout: post
-    author: wahyu243
+    author_name: wahyu243
+    author_id: 1
     toc: true
     
 collections:
