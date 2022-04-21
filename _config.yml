@@ -4,10 +4,10 @@ title: Portal Informasi Pendidikan
 email: "wahyu243@gmail.com"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bukukelas.com" # the base hostname & protocol for your site, e.g. http://example.com
-logo: /apple-touch-icon.png
+logo: /assets/images/header-brand.png
 description: "BukuKelas.com menyajikan berbagai informasi informatif tentang pendidikan, dokumen, rpp, buku, tutorial, berita, dll."
 keywords: "buku kelas, buku pendidikan, buku sd, buku smp, buku sma/smk, buku pendidikan khusus, buku abk"
-mailclimp: "https://bukukelas.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=4784863884"
+mailclimp: "https://bukukelas.us14.list-manage.com/subscribe?u=4382fde9ef97c395658e76afa&id=483e7ca28e"
 facebook: https://facebook.com/bukukelas
 instagram: https://instagram.com/bukukelas
 twitter: https://twitter.com/bukukelas
