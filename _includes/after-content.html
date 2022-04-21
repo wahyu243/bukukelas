@@ -1,4 +1,4 @@
-<div data-aos="fade-in" class="single-post-widget  border-light border-top pt-3 mt-3 ">
+<div data-aos="fade-in" class="single-post-widget  border-light border-top pt-3 mt-3 no-print">
     <h4>Share on</h4>
     <ul class="list-inline">
         <li class="list-inline-item"><a class="rounded btn btn-danger btn-sm btn-fc text-light"
@@ -18,7 +18,7 @@
 </div>
 
 
-<div data-aos="fade-in" class="single-post-widget border-light border-top pt-3 mt-3">
+<div data-aos="fade-in" class="single-post-widget border-light border-top pt-3 mt-3 no-print">
     <h4>Tags</h4>
     <ul class="entry-tags-share list-inline">
         {% for tag in page.tags %}
@@ -30,7 +30,7 @@
 
 </div>
 
-<div data-aos="fade-in" class="single-post-widget border-light border-top pt-3 mt-3">
+<div data-aos="fade-in" class="single-post-widget border-light border-top pt-3 mt-3 no-print">
 
 
     <ul class="entry-navigation list-inline d-block d-lg-flex justify-content-between flex">
@@ -80,7 +80,7 @@
     </ul>
 </div>
 
-<div data-aos="fade-in" class="single-post-widget border-light border-top pt-3 mt-3">
+<div data-aos="fade-in" class="single-post-widget border-light border-top pt-3 mt-3 no-print">
     <div class="entry-author-bio my-2 card border border-light box-hover px-2 py-2">
         <div class="card-body">
             <img src="{{author.image | relative_url}}" class="avata-image mb-1 rounded-circle"
@@ -95,7 +95,7 @@
 </div>
 
 {% if page.comments == true %}
-    <div data-aos="fade-in" class="single-post-widget border-light border-top pt-3 mt-3">
+    <div data-aos="fade-in" class="single-post-widget border-light border-top pt-3 mt-3 no-print">
         {% include comments.html %}
     </div>
 {% endif %}
