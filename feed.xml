@@ -20,7 +20,7 @@ layout: null
 	<language>id-ID</language>
 	<sy:updatePeriod>daily</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>Jekyll v {{ 4.2.2 }}</generator>
+	<generator>Jekyll v 4.2.2</generator>
 	<image>
 	<url>https://bukukelas.com/favicon-32x32.png</url>
 	<title>{{ site.title | xml_escape }} - {{site.name}}</title>
