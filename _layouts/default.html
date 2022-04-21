@@ -17,7 +17,7 @@ layout: compress
     <link rel="canonical" href="{{ page.url | prepend: site.url }}">
 	<title>{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }} - {{ site.name }}{% endif %}</title>
 	<meta name="title" content="{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }}{% endif %}">
- {% if page.layout == 'post' or page.layout == 'page' %}<meta name="description" content="{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }} - {{ site.name }}{% endif %}, {% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ page.excerpt }}{% endif %}">
+ {% if page.layout == 'post' or page.layout == 'page' %}<meta name="excerpt" content="{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }} - {{ site.name }}{% endif %}, {% if page.excerpt %}{{ page.excerpt | truncate: 160 }}{% else %}{{ page.expert }}{% endif %}">
 	{% endif %}
  
 <!-- Google CDN -->
@@ -66,7 +66,7 @@ layout: compress
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:site_name" content="{{ site.name }}">
     {% if page.layout == 'post' or page.layout == 'page' %}
-    <meta property="og:description" content="{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }} - {{ site.name }}{% endif %}, {% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ page.excerpt }}{% endif %}">
+    <meta property="og:description" content="{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }} - {{ site.name }}{% endif %}, {% if page.excerpt %}{{ page.excerpt | truncate: 160 }}{% else %}{{ page.expert }}{% endif %}">
     <meta property="og:type" content="article">
     <meta property="og:image" content="{{site.url}}/img/{{ page.post_image | replace: '/img/','' }}" >
     <meta property="og:image:alt" content="{{page.title}}" >
@@ -74,8 +74,8 @@ layout: compress
     <meta property="article:author" content="https://www.facebook.com/you.w4hyou" >
     <meta property="article:published_time" content="{{ page.date }}" >
     {% else %}
-    <meta name="description" content="{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }} - {{ site.name }}{% endif %}, {% if page.description %}{{ page.description | truncate: 160}}{% else %}{{ site.description | truncate: 160}}{% endif %}">
-    <meta name="og:description" content="{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }} - {{ site.name }}{% endif %}, {% if page.description %}{{ page.description | truncate: 160}}{% else %}{{ site.description | truncate: 160}}{% endif %}">
+    <meta name="description" content="{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }} - {{ site.name }}{% endif %}, {% if page.excerpt %}{{ page.excerpt | truncate: 160}}{% else %}{{ site.description | truncate: 160}}{% endif %}">
+    <meta name="og:description" content="{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }} - {{ site.name }}{% endif %}, {% if page.excerpt %}{{ page.excerpt | truncate: 160}}{% else %}{{ site.description | truncate: 160}}{% endif %}">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{site.url}}/img/twitter-card.png">
     <meta property="og:image:alt" content="{{site.name}}">
@@ -83,7 +83,7 @@ layout: compress
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.name }}{% endif %}">
-    <meta name="twitter:description" content="{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }} - {{ site.name }}{% endif %}, {% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:description" content="{%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }} - {{ site.name }}{% endif %}, {% if page.excerpt %}{{ page.excerptn | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 	<meta property="twitter:image" content="{% if page.post_image %}{{site.url}}/img/{{ page.post_image | replace: '/img/','' }}{% else %}{{ site.image }}{% endif %}" >
 
     <meta name="twitter:site" content="@admnet2">
@@ -143,7 +143,7 @@ layout: compress
  "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ page.last_modified_date | date_to_xmlschema }}{% endif %}",
  "dateCreated": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ page.last_modified_date | date_to_xmlschema }}{% endif %}",
  "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ page.last_modified_at | date_to_xmlschema }}{% endif %}",
- "description": "{% if page.excerpt %}{{ page.excerpt | truncate: 160}}{% else %}{{ page.excerpt }}{% endif %}",
+ "description": "{% if page.excerpt %}{{ page.excerpt | truncate: 160}}{% else %}{{ page.expert }}{% endif %}",
  "articleBody": "{{page.content | strip_html }}. {%if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }} - {{ site.name }}{% endif %}"
  }
 	</script>
