@@ -1,0 +1,44 @@
+---
+layout: null
+---
+
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>{{ site.title | xml_escape }} - {{site.name}}</title>
+	<atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
+	<link>{{ site.url }}{{ site.baseurl }}</link>
+	<description>{{ site.description | xml_escape }}</description>
+	<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+	<language>id-ID</language>
+	<sy:updatePeriod>daily</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>Jekyll v{{ 4.2.2 }}</generator>
+	<image>
+	<url>https://bukukelas.com/favicon-32x32.png</url>
+	<title>{{ site.title | xml_escape }} - {{site.name}}</title>
+	<link>{{ site.url }}{{ site.baseurl }}</link>
+	<width>32</width>
+	<height>32</height>
+	</image> 
+ {% for post in site.posts limit:10 %}
+	<item>
+		<title>{{ post.title | xml_escape }}</title>
+		<link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+		<dc:creator><![CDATA[{{post.author_name}}]]></dc:creator>
+		<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+		<category><![CDATA[{{post.categories | capitalize | last}}]]></category>
+		<guid>{{ post.date | date_to_rfc822 | remove: ":" | remove: "-"}}</guid>
+		<description>{% if post.excerpt %}{{ post.excerpt}}{% else %}{{ post.expert  | strip_html }}{% endif %}</description>
+      <content:encoded><![CDATA[ <img align="left" hspace="8" src="{%if post.post_image %}{{ site.url }}/{{ post_image }}{% else %}{{ site.url }}{{ site.logo }}{% endif %}"/> {% if post.content %}{{ post.content}}{% else %}{{ post.content  | strip_html }}{% endif %} ]]> </content:encoded>
+		</item>   
+	{% endfor %}
+	</channel>
+</rss>
