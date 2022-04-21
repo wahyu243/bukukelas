@@ -7,7 +7,7 @@ url: "https://bukukelas.com" # the base hostname & protocol for your site, e.g. 
 logo: /assets/images/header-brand.png
 description: "BukuKelas.com menyajikan berbagai informasi informatif tentang pendidikan, dokumen, rpp, buku, tutorial, berita, dll."
 keywords: "buku kelas, buku pendidikan, buku sd, buku smp, buku sma/smk, buku pendidikan khusus, buku abk"
-mailclimp: "https://bukukelas.us14.list-manage.com/subscribe?u=4382fde9ef97c395658e76afa&id=483e7ca28e"
+mailchimp: "https://bukukelas.us14.list-manage.com/subscribe?u=4382fde9ef97c395658e76afa&id=483e7ca28e"
 facebook: https://facebook.com/bukukelas
 instagram: https://instagram.com/bukukelas
 twitter: https://twitter.com/bukukelas
