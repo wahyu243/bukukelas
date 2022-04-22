@@ -54,7 +54,7 @@ autopages:
     layouts:
       - "category.html"
     title: ":cat"
-    permalink: "/category/:cat"
+    permalink: "/kategori/:cat"
   collections:
     layouts:
       - "category.html"
