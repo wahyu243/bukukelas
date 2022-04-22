@@ -38,13 +38,6 @@
         url: /kategori/administrasi
       - text: Berita
         url: /kategori/berita
-        sub_submenu: 
-        - text: CPNS
-          url: /kategori/cpns
-        - text: PPPK
-          url: /kategori/pppk
-        - text: lainnya
-          url: /kategori/berita
       - text: Teori
         url: /kategori/teori     
       - text: Materi
