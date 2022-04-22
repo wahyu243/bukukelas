@@ -9,7 +9,7 @@ author_id: 1
 featured: "true"
 categories:
   - Berita
-  - PPPK
+  - pppk
 tags:
   - Pendidikan
   - Guru
