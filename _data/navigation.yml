@@ -3,19 +3,19 @@
   meganenu: false
               
 - text: Buku
-  url: /buku
+  url: /kategori/buku
   meganenu: false
   submenu:
     - text: Buku Guru
-      url: /guru
+      url: /kategori/guru
     - text: Buku Siswa
-      url: /siswa
+      url: /kategori/siswa
     - text: Buku Parenting
-      url: /parenting
+      url: /kategori/parenting
     - text: Buku Komik
-      url: /komik
+      url: /kategori/komik
     - text: Buku Dongeng
-      url: /dongeng
+      url: /kategori/dongeng
  #  - title: Satuan Pendidikan 
  #     submenuitem:
  #     - text: SD
@@ -31,30 +31,30 @@
  #     - text: SMALB
  #       url: /smalb       
 - text: Kategori
-  url: /categories
+  url: /kategori
   meganenu: false
   submenu:
       - text: Administrasi
-        url: /administrasi
+        url: /kategori/administrasi
       - text: Berita
-        url: /berita
+        url: /kategori/berita
         sub_submenu: 
         - text: CPNS
-          url: /cpns
+          url: /kategori/cpns
         - text: PPPK
-          url: /pppk
+          url: /kategori/pppk
         - text: lainnya
-          url: /berita
+          url: /kategori/berita
       - text: Teori
-        url: /teori     
+        url: /kategori/teori     
       - text: Materi
         url: /materi
       - text: Tutorial
-        url: /tutorial
+        url: /kategori/tutorial
       - text: Video
-        url: /video
+        url: /kategori/video
       - text: Infografis
-        url: /infografis
+        url: /kategori/infografis
 - text: Panduan
   url: /#
   meganenu: false

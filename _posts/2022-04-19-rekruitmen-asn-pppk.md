@@ -7,7 +7,7 @@ date: 2022-04-19 19:41
 author_name: wahyu243
 author_id: 1
 featured: "true"
-categories: [Berita,PPPK]
+categories: [Berita,PPPK,CPNS]
 tags:
   - Pendidikan
   - Guru
