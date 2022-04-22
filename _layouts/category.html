@@ -6,7 +6,7 @@ pagination:
 ---
 
 {% assign page_title = page.title %}
-{% assign cat = page_title %}
+{% assign cat = page_title | capitalize %}
 {% assign posts = site.posts | where: "categories", cat  %}
 
 
@@ -17,8 +17,8 @@ pagination:
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Kategori - {{ cat | capitalize }}</h2>
-                    <p>Total Konten : {{posts.size}} {% if posts.size == 1 %} Post {% else %} Posts {% endif %} </p>
+                    <h2>Kategory - {{cat | capitalize }}</h2>
+                    <p>Total Posts : {{posts.size}} {% if posts.size == 1 %} Post {% else %} Posts {% endif %} </p>
                 </div>
             </div>
         </div>
