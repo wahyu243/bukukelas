@@ -39,9 +39,9 @@ collections:
         name: author_name
         widget: "string"
         required: false
-      - {label: 'Featured', name: 'featured', widget: 'select', options: ['true', 'false'] }
+      - {label: 'Featured', name: 'featured', widget: 'select', options: ['True', 'False'] }
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Categories", name: "categories", hint: "Contoh cpns, guru, pendidikan", widget: "list"}
+      - {label: "Categories", name: "categories", hint: "Pilih salah satu", 'select', options: ['Administrasi','Artikel','Buku','Berita','Pilihan Editor','Materi','Infografis','Video','Teori','Tutorial','Trending']}
       - {label: "Tags", name: "tags", hint: "Contoh cpns, guru, pendidikan", widget: "list"}
       - label: "Nama Sumber"
         name: "nama_sumber_1"
