@@ -17,11 +17,11 @@ post_layout: 1
       </a>
     </span>
     
-      <span class="breadcrumb" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">{% for category in post.categories %}
+      <span class="breadcrumb" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
         <a href="{{'/kategori/' | relative_url}}{{ category | slugify }}" itemprop="item">
           <span itemprop="name">{{category}}</span>
           <meta itemprop="position" content="{{ forloop.index | plus: 1 }}" />
-        </a>{% endfor %}
+        </a>
       </span>
       
         <span class="breadcrumb sr-only" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
