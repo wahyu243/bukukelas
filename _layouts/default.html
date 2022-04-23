@@ -1,3 +1,8 @@
+---
+layout: compress
+---
+
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -224,7 +229,7 @@
 </head>
 
 <body>
-    <!--/// Header Area /// -->
+   
     <div class="preloader">
         <div class="lds-roller">
             <div></div>
@@ -246,11 +251,8 @@
     {{content}}
 
     {% include footer.html %}
-
-    <!--=========== JS Add ==========-->
-    <!-- gulp:js -->
     <script src="{{'/assets/js/build.min.js' | relative_url}}"></script>
-    <!-- endgulp -->
+
 
 </body>
 

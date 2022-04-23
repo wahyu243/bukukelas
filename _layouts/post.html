@@ -19,15 +19,15 @@ post_layout: 1
     
       <span class="breadcrumb" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
         <a href="{{'/kategori/' | relative_url}}{{ category | slugify }}" itemprop="item">
-          <span itemprop="name">{{page.category}}</span>
-          <meta itemprop="position" content="{{ forloop.index | plus: 1 }}" />
+          <span itemprop="name">{{page.categories}}</span>
+          <meta itemprop="position" content="2" />
         </a>
       </span>
       
         <span class="breadcrumb sr-only" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
           <a href="{{ page.url | relative_url }}" itemprop="item" aria-current="page">
             <span itemprop="name">{{ page.title | strip_html }}</span>
-            <meta itemprop="position" content="{{ forloop.length | plus: 2 }}" />
+            <meta itemprop="position" content="3" />
           </a>
         </span>
      
