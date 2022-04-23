@@ -3,6 +3,8 @@
 # Redirect default Netlify subdomain to primary domain
 https://bukukelas.netlify.app/* https://bukukelas.com/:splat 301!
 https://wwww.bukukelas.com/* https://bukukelas.com/:splat 301!
+https://bukukelas.com/category/* https://bukukelas.com/kategori/:splat 301!
+https://bukukelas.com/categories/* https://bukukelas.com/kategori/:splat 301!
 https://master--bukukelas.netlify.app/* https://bukukelas.com/:splat 301!
 
 
