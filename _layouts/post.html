@@ -18,7 +18,7 @@ post_layout: 1
     </span>
     
       <span class="breadcrumb" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-        <a href="{{'/kategori/' | relative_url}}{{ category | slugify }}" itemprop="item">
+        <a href="{{'/kategori/' | relative_url}}{{ page.categories | slugify }}" itemprop="item">
           <span itemprop="name">{{page.categories}}</span>
           <meta itemprop="position" content="2" />
         </a>
