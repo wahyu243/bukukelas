@@ -79,7 +79,7 @@ defaults:
     layout: page
     author_name: wahyu243
     author_id: 1
-    post_image: assets/images/no-image.jpg
+    post_image: assets/images/default.png
     toc: true
   
 - scope:
@@ -89,7 +89,7 @@ defaults:
     layout: post
     author_name: wahyu243
     author_id: 1
-    post_image: assets/images/no-image.jpg
+    post_image: assets/images/default.png
     toc: true
     
 collections:
