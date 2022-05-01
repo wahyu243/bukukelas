@@ -18,7 +18,7 @@ tags:
 
 ## Apa itu Guru Penggerak
 
-Guru Penggerak adalah pemimpin pembelajaran yang mendorong tumbuh kembang murid secara holistik; aktif dan proaktif dalam mengembangkan pendidik lainnya untuk mengimplementasikan pembelajaran yang berpusat kepada murid; serta menjadi teladan dan agen transformasi ekosistem pendidikan untuk mewujudkan profil Pelajar Pancasila.
+[BukuKelas.com](/ "BukuKelas.com") - Guru Penggerak adalah pemimpin pembelajaran yang mendorong tumbuh kembang murid secara holistik; aktif dan proaktif dalam mengembangkan pendidik lainnya untuk mengimplementasikan pembelajaran yang berpusat kepada murid; serta menjadi teladan dan agen transformasi ekosistem pendidikan untuk mewujudkan profil Pelajar Pancasila.
 
 Untuk menjadi Guru Penggerak, guru harus mengikuti program pendidikan guru penggerak. 
 

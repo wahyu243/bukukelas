@@ -14,7 +14,7 @@ tags:
   - tutorial
 ---
 
-Wabah infeksi virus corona baru (SARS-CoV-2/COVID-19, sebelumnya disebut 2019-nCoV) adalah jenis virus penyebab penyakit seperti flu biasa, MERS, SARS, dan penyakit saluran pernapasan lain yang berpotensi mematikan. Meskipun bisa berakibat serius, langkah-langkah pencegahan bisa membantu melindungi kesehatan Anda dari virus corona, baik di masyarakat, dan di rumah. Hingga saat ini banyak muncul varian virus baru.
+[BukuKelas.com](/ "BukuKelas.com") - Wabah infeksi virus corona baru (SARS-CoV-2/COVID-19, sebelumnya disebut 2019-nCoV) adalah jenis virus penyebab penyakit seperti flu biasa, MERS, SARS, dan penyakit saluran pernapasan lain yang berpotensi mematikan. Meskipun bisa berakibat serius, langkah-langkah pencegahan bisa membantu melindungi kesehatan Anda dari virus corona, baik di masyarakat, dan di rumah. Hingga saat ini banyak muncul varian virus baru.
 
 ![Mencuci tangan dengan sabun](/assets/images/galuh-ilustrasi-mencuci-tangan-berita1.png "Mencuci tangan dengan sabun")
 
