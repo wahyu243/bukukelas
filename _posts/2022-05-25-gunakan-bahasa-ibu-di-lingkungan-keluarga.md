@@ -1,19 +1,21 @@
 ---
-layout: post
-title: 'Gunakan Bahasa Ibu di Lingkungan Keluarga! '
-e: >-
-  Indonesia dikenal dengan ragam budayanya termasuk didalamnya berbagai macam
+excerpt: Gunakan Bahasa Ibu di Lingkungan Keluarga!
+e: Indonesia dikenal dengan ragam budayanya termasuk didalamnya berbagai macam
   bahasa daerah yang harus terus dilestarikan
-categories: [Teori]
-post_id: 122
-author_name: "wahyu243"
+layout: post
+title: "Gunakan Bahasa Ibu di Lingkungan Keluarga! "
+date: 2022-06-05 18:46
 author_id: 1
-date: 2022-05-25T05:43:08.359Z
+author_name: wahyu243
+featured: "False"
+categories:
+  - Teori
 tags:
   - budaya
   - indonesia
   - bahasa
   - pendidikan
+post_id: 122
 ---
 
 [BukuKelas.com](/ "BukuKelas.com") - Indonesia memang telah dikenal sebagai negara yang memiliki jumlah bahasa terbanyak kedua di dunia setelah Papua Nugini. Sejak 1991, Kementerian Pendidikan dan Kebudayaan (Kemendikbud) telah memetakan bahasa ibu atau bahasa daerah yakni sebanyak 718 bahasa yang teridentifikasi dan sebelas di antaranya telah punah atau tidak ada lagi penuturnya. Bagaimana agar bahasa ibu itu tidak punah?
